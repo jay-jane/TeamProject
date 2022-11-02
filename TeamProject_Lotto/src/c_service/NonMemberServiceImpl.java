@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import c_vo.NonMembersVO;
-import lottery.Check;
 
 //기능 담당
 public class NonMemberServiceImpl implements NonMemberService{
