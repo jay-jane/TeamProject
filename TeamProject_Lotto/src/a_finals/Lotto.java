@@ -41,8 +41,8 @@ public class Lotto extends Main{
 				break;
 			case "2" : //수동으로 입력
 				System.out.println("수동으로 입력합니다");
-				System.out.print("> ");
 				for(int i = 0; i < 6; i++) {
+					System.out.print("> ");
 					lottoNum[i] = scan.nextInt();
 					if(lottoNum[i] > 45 || lottoNum[i] < 1) {
 						i--;
