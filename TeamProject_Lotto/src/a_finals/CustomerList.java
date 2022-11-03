@@ -115,5 +115,7 @@ public class CustomerList {
 		//		}
 	}
 
-
+	public List<Customer> getList() {
+		return list;
+	}
 }
