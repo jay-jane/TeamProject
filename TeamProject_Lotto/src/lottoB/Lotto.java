@@ -44,6 +44,11 @@ public class Lotto extends Main{
 				System.out.print("> ");
 				for(int i = 0; i < 6; i++) {
 					lottoNum[i] = scan.nextInt();
+					if(lottoNum[i] > 45 || lottoNum[i] < 1) {
+						i--;
+					}else {
+						lottoNum[i] = lottoNum[i];
+					}
 					for(int j = 0; j < i; j++) {
 						if(lottoNum[i] == lottoNum[j]) {
 							i--;
