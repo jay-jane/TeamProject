@@ -71,6 +71,7 @@ public class Machine extends Random {
 	public void ballInfo()
 	{
 		System.out.print("이번 주의 당첨 번호는 ");
+		Arrays.sort(ball);
 		System.out.print(Arrays.toString(ball));
 		System.out.println("입니다. 축하드립니다~");
 	}

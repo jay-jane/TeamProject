@@ -18,6 +18,7 @@ public class LottoRun {
 		int[] lot = lotto.lottoNum;
 		int[] ballNum = machine.ball;
 		int result = 0;
+        System.out.print("----------내 번호 : ");
 		for(int i = 0; i < 6; i++) {
 			if(lot[i] == ballNum[i]) {
 				result = 1;
