@@ -21,8 +21,8 @@ public class CustomerMain {
 			String input = CustomerMain.sc.nextLine();
 			switch(input) {
 			case "1": //회원등록 후 추첨
-				CustomerList.inputCustomerInfo();
-				CustomerList.CustomerInfo();
+				cl.inputCustomerInfo();
+				cl.CustomerInfo();
 				break;
 			case "2": //비회원 추첨
 				System.out.println("-----비회원으로 진행-----");

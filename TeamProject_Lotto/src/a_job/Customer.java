@@ -2,7 +2,7 @@ package a_job;
 
 public class Customer { //회원 정보 입력
 	
-	private static String id, pw, name, birth, phone;
+	private String id, pw, name, birth, phone;
 	
 	public Customer() {
 	}
@@ -15,45 +15,46 @@ public class Customer { //회원 정보 입력
 		this.phone = phone;
 	}
 
-	public static String getId() {
+	public String getId() {
 		return id;
 	}
 
-	public static String getName() {
+	public String getName() {
 		return name;
 	}
 
-	public static String getBirth() {
+	public String getBirth() {
 		return birth;
 	}
 
-	public static String getPhone() {
+	public String getPhone() {
 		return phone;
 	}
 	
 	
-	public static String getPw() {
+	public String getPw() {
 		return pw;
 	}
 
-	public static void setPw(String pw) {
-		Customer.pw = pw;
+
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public static void setId(String id) {
-		Customer.id = id;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public static void setName(String name) {
-		Customer.name = name;
+	public void setBirth(String birth) {
+		this.birth = birth;
 	}
 
-	public static void setBirth(String birth) {
-		Customer.birth = birth;
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
-
-	public static void setPhone(String phone) {
-		Customer.phone = phone;
+	
+	public void setPw(String pw) {
+		this.pw = pw;
 	}
 
 	public String toString() {
