@@ -24,7 +24,7 @@ public class CustomerMain {
 			switch(input) {
 			case "1": //회원등록 후 추첨
 				cl.inputCustomerInfo();
-				break;
+				break ;
 			case "2": //비회원 추첨
 				System.out.println("-----비회원으로 진행-----");
 				nms.register();
